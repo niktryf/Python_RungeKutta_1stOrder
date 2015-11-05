@@ -27,8 +27,8 @@ import sys
 
 # Import runge kutta and right-hand-side function
 # from rungekutta.py
-from rungekutta import *
-from plot1D import *
+from rungekutta import RK4, rhs
+from plot1D import plot1D
 
 ##### Set Initial Conditions Here: #####
 x_0 = 0
